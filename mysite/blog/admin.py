@@ -3,6 +3,7 @@ from .models import Post
 
 # Register your models here.
 
+# add comments by Mr. Yahoo 
 class PostAdmin(admin.ModelAdmin):
     list_display = ('title', 'slug', 'author', 'publish','status')
     list_filter = ('status', 'created', 'publish', 'author')
